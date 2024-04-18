@@ -1,4 +1,13 @@
 import utils
+import string
+import math
+import re
+import itertools
+import operator
+import functools
+from random import randint
+from pprint import pprint
+
 
 if __name__ == "__main__":
     example = True
