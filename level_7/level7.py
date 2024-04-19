@@ -9,6 +9,11 @@ from random import randint
 from pprint import pprint
 
 
+def solve(lines):
+    res = []
+    return res
+
+
 if __name__ == "__main__":
     example = True
     lines = []
@@ -16,10 +21,10 @@ if __name__ == "__main__":
 
     if example:
         lines = utils.read_example_file(level)
-        res = lines
+        res = solve(lines)
         print(res)
     else:
         for i in range(1, 6):
             lines = utils.read_file(level, i)
-            res = lines  # Do something with the lines
+            res = solve(lines)
             utils.write_file(level, i, res)
